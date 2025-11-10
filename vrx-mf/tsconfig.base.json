@@ -21,7 +21,8 @@
       "assets/Routes": ["apps/assets/src/app/remote-entry/entry.routes.ts"],
       "findings/Routes": ["apps/findings/src/app/remote-entry/entry.routes.ts"],
       "users/Routes": ["apps/users/src/app/remote-entry/entry.routes.ts"],
-      "settings/Routes": ["apps/settings/src/app/remote-entry/entry.routes.ts"]
+      "settings/Routes": ["apps/settings/src/app/remote-entry/entry.routes.ts"],
+      "@vrx-mf/ui-kit": ["libs/ui-kit/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
