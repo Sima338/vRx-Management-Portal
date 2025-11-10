@@ -1,9 +1,50 @@
-<ul class="remote-menu">
-  <li><a routerLink="/">Home</a></li>
-  <li><a routerLink="dashboard">Dashboard</a></li>
-  <li><a routerLink="assets">Assets</a></li>
-  <li><a routerLink="findings">Findings</a></li>
-  <li><a routerLink="users">Users</a></li>
-  <li><a routerLink="settings">Settings</a></li>
-</ul>
-<router-outlet></router-outlet>
+<!-- Top Navigation Bar -->
+<header class="top-nav">
+  <div class="nav-brand">
+    <span class="brand-logo">vRx</span>
+    <span class="brand-text">Management Portal</span>
+  </div>
+  <div class="nav-actions">
+    <div class="user-profile">
+      <div class="user-avatar"></div>
+    </div>
+  </div>
+</header>
+
+<!-- Sidebar Navigation -->
+<aside class="sidebar">
+  <nav class="sidebar-nav">
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="nav-link">
+          Dashboard
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/assets" routerLinkActive="active" class="nav-link">
+          Assets
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/findings" routerLinkActive="active" class="nav-link">
+          Findings
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/users" routerLinkActive="active" class="nav-link">
+          Users
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/settings" routerLinkActive="active" class="nav-link">
+          Settings
+        </a>
+      </li>
+    </ul>
+  </nav>
+</aside>
+
+<!-- Main Content Area -->
+<main class="main-content">
+  <router-outlet></router-outlet>
+</main>
