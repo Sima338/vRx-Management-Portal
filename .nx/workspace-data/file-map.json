@@ -1,0 +1,783 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.0.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "assets-e2e": [
+        {
+          "file": "vrx-mf/apps/assets-e2e/eslint.config.mjs",
+          "hash": "1172734138943286526"
+        },
+        {
+          "file": "vrx-mf/apps/assets-e2e/playwright.config.ts",
+          "hash": "184694129420881931"
+        },
+        {
+          "file": "vrx-mf/apps/assets-e2e/project.json",
+          "hash": "5482174703005170654"
+        },
+        {
+          "file": "vrx-mf/apps/assets-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625"
+        },
+        {
+          "file": "vrx-mf/apps/assets-e2e/tsconfig.json",
+          "hash": "15726545290547512047"
+        }
+      ],
+      "dashboard": [
+        {
+          "file": "vrx-mf/apps/dashboard/eslint.config.mjs",
+          "hash": "15543610320901399025"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/jest.config.ts",
+          "hash": "4395250475089869511"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/module-federation.config.ts",
+          "hash": "11322024386131791521"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/project.json",
+          "hash": "16050350151570944084"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/src/app/app.config.ts",
+          "hash": "4515289115773032281"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/src/app/app.routes.ts",
+          "hash": "12432514961207439410"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/src/app/components/dashboard-main/dashboard-main.ts",
+          "hash": "5542626992277579692"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/src/app/remote-entry/entry.routes.ts",
+          "hash": "3867460417164941437"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/src/app/remote-entry/entry.ts",
+          "hash": "14954206875731555697"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/src/bootstrap.ts",
+          "hash": "13646108659156824644"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/src/index.html",
+          "hash": "4919449902748192649"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/src/main.ts",
+          "hash": "14701344671644104227"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/src/test-setup.ts",
+          "hash": "1917999429567095215"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/tsconfig.app.json",
+          "hash": "4181211902972581879"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/tsconfig.json",
+          "hash": "4663124578817442910"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/tsconfig.spec.json",
+          "hash": "5331518322626158299"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/webpack.config.ts",
+          "hash": "383329064200880040"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard/webpack.prod.config.ts",
+          "hash": "292733372942319833"
+        }
+      ],
+      "shell-e2e": [
+        {
+          "file": "vrx-mf/apps/shell-e2e/eslint.config.mjs",
+          "hash": "1172734138943286526"
+        },
+        {
+          "file": "vrx-mf/apps/shell-e2e/playwright.config.ts",
+          "hash": "17525332694196234188"
+        },
+        {
+          "file": "vrx-mf/apps/shell-e2e/project.json",
+          "hash": "6821744951995925016"
+        },
+        {
+          "file": "vrx-mf/apps/shell-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625"
+        },
+        {
+          "file": "vrx-mf/apps/shell-e2e/tsconfig.json",
+          "hash": "15726545290547512047"
+        }
+      ],
+      "findings": [
+        {
+          "file": "vrx-mf/apps/findings/eslint.config.mjs",
+          "hash": "15543610320901399025"
+        },
+        {
+          "file": "vrx-mf/apps/findings/jest.config.ts",
+          "hash": "4849581545574023249"
+        },
+        {
+          "file": "vrx-mf/apps/findings/module-federation.config.ts",
+          "hash": "16400736689754390264"
+        },
+        {
+          "file": "vrx-mf/apps/findings/project.json",
+          "hash": "13725530263440289824"
+        },
+        {
+          "file": "vrx-mf/apps/findings/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "vrx-mf/apps/findings/src/app/app.config.ts",
+          "hash": "4515289115773032281"
+        },
+        {
+          "file": "vrx-mf/apps/findings/src/app/app.routes.ts",
+          "hash": "12432514961207439410"
+        },
+        {
+          "file": "vrx-mf/apps/findings/src/app/components/findings-main/findings-main.ts",
+          "hash": "13681179522730688294"
+        },
+        {
+          "file": "vrx-mf/apps/findings/src/app/remote-entry/entry.routes.ts",
+          "hash": "3867460417164941437"
+        },
+        {
+          "file": "vrx-mf/apps/findings/src/app/remote-entry/entry.ts",
+          "hash": "1232501519622937117"
+        },
+        {
+          "file": "vrx-mf/apps/findings/src/bootstrap.ts",
+          "hash": "13646108659156824644"
+        },
+        {
+          "file": "vrx-mf/apps/findings/src/index.html",
+          "hash": "1136592008080798447"
+        },
+        {
+          "file": "vrx-mf/apps/findings/src/main.ts",
+          "hash": "14701344671644104227"
+        },
+        {
+          "file": "vrx-mf/apps/findings/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "vrx-mf/apps/findings/src/test-setup.ts",
+          "hash": "1917999429567095215"
+        },
+        {
+          "file": "vrx-mf/apps/findings/tsconfig.app.json",
+          "hash": "4181211902972581879"
+        },
+        {
+          "file": "vrx-mf/apps/findings/tsconfig.json",
+          "hash": "4663124578817442910"
+        },
+        {
+          "file": "vrx-mf/apps/findings/tsconfig.spec.json",
+          "hash": "5331518322626158299"
+        },
+        {
+          "file": "vrx-mf/apps/findings/webpack.config.ts",
+          "hash": "383329064200880040"
+        },
+        {
+          "file": "vrx-mf/apps/findings/webpack.prod.config.ts",
+          "hash": "292733372942319833"
+        }
+      ],
+      "settings-e2e": [
+        {
+          "file": "vrx-mf/apps/settings-e2e/eslint.config.mjs",
+          "hash": "1172734138943286526"
+        },
+        {
+          "file": "vrx-mf/apps/settings-e2e/playwright.config.ts",
+          "hash": "11813676495723929849"
+        },
+        {
+          "file": "vrx-mf/apps/settings-e2e/project.json",
+          "hash": "17092072333776090191"
+        },
+        {
+          "file": "vrx-mf/apps/settings-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625"
+        },
+        {
+          "file": "vrx-mf/apps/settings-e2e/tsconfig.json",
+          "hash": "15726545290547512047"
+        }
+      ],
+      "dashboard-e2e": [
+        {
+          "file": "vrx-mf/apps/dashboard-e2e/eslint.config.mjs",
+          "hash": "1172734138943286526"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard-e2e/playwright.config.ts",
+          "hash": "10546191827613953551"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard-e2e/project.json",
+          "hash": "10898502510672001043"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625"
+        },
+        {
+          "file": "vrx-mf/apps/dashboard-e2e/tsconfig.json",
+          "hash": "15726545290547512047"
+        }
+      ],
+      "assets": [
+        {
+          "file": "vrx-mf/apps/assets/eslint.config.mjs",
+          "hash": "15543610320901399025"
+        },
+        {
+          "file": "vrx-mf/apps/assets/jest.config.ts",
+          "hash": "17655593617141348250"
+        },
+        {
+          "file": "vrx-mf/apps/assets/module-federation.config.ts",
+          "hash": "2366730344823342076"
+        },
+        {
+          "file": "vrx-mf/apps/assets/project.json",
+          "hash": "1500373524484338702"
+        },
+        {
+          "file": "vrx-mf/apps/assets/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "vrx-mf/apps/assets/src/app/app.config.ts",
+          "hash": "4515289115773032281"
+        },
+        {
+          "file": "vrx-mf/apps/assets/src/app/app.routes.ts",
+          "hash": "12432514961207439410"
+        },
+        {
+          "file": "vrx-mf/apps/assets/src/app/components/assets-main/assets-main.ts",
+          "hash": "15313177123460464099"
+        },
+        {
+          "file": "vrx-mf/apps/assets/src/app/remote-entry/entry.routes.ts",
+          "hash": "3867460417164941437"
+        },
+        {
+          "file": "vrx-mf/apps/assets/src/app/remote-entry/entry.ts",
+          "hash": "17223336250149121844"
+        },
+        {
+          "file": "vrx-mf/apps/assets/src/bootstrap.ts",
+          "hash": "13646108659156824644"
+        },
+        {
+          "file": "vrx-mf/apps/assets/src/index.html",
+          "hash": "16398262253366339082"
+        },
+        {
+          "file": "vrx-mf/apps/assets/src/main.ts",
+          "hash": "14701344671644104227"
+        },
+        {
+          "file": "vrx-mf/apps/assets/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "vrx-mf/apps/assets/src/test-setup.ts",
+          "hash": "1917999429567095215"
+        },
+        {
+          "file": "vrx-mf/apps/assets/tsconfig.app.json",
+          "hash": "4181211902972581879"
+        },
+        {
+          "file": "vrx-mf/apps/assets/tsconfig.json",
+          "hash": "4663124578817442910"
+        },
+        {
+          "file": "vrx-mf/apps/assets/tsconfig.spec.json",
+          "hash": "5331518322626158299"
+        },
+        {
+          "file": "vrx-mf/apps/assets/webpack.config.ts",
+          "hash": "383329064200880040"
+        },
+        {
+          "file": "vrx-mf/apps/assets/webpack.prod.config.ts",
+          "hash": "292733372942319833"
+        }
+      ],
+      "shell": [
+        {
+          "file": "vrx-mf/apps/shell/eslint.config.mjs",
+          "hash": "3353604568745833219"
+        },
+        {
+          "file": "vrx-mf/apps/shell/jest.config.ts",
+          "hash": "13626040895969330464"
+        },
+        {
+          "file": "vrx-mf/apps/shell/module-federation.config.ts",
+          "hash": "3629646413218896181"
+        },
+        {
+          "file": "vrx-mf/apps/shell/project.json",
+          "hash": "3586749835406202972"
+        },
+        {
+          "file": "vrx-mf/apps/shell/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "vrx-mf/apps/shell/src/app/app.config.ts",
+          "hash": "4515289115773032281"
+        },
+        {
+          "file": "vrx-mf/apps/shell/src/app/app.html",
+          "hash": "389446559538488190"
+        },
+        {
+          "file": "vrx-mf/apps/shell/src/app/app.routes.ts",
+          "hash": "8064886926295637573"
+        },
+        {
+          "file": "vrx-mf/apps/shell/src/app/app.scss",
+          "hash": "9349626538050307977"
+        },
+        {
+          "file": "vrx-mf/apps/shell/src/app/app.spec.ts",
+          "hash": "3962428029389658565"
+        },
+        {
+          "file": "vrx-mf/apps/shell/src/app/app.ts",
+          "hash": "3705347131080792671"
+        },
+        {
+          "file": "vrx-mf/apps/shell/src/bootstrap.ts",
+          "hash": "3314327030169821486"
+        },
+        {
+          "file": "vrx-mf/apps/shell/src/index.html",
+          "hash": "8386492070135145724"
+        },
+        {
+          "file": "vrx-mf/apps/shell/src/main.ts",
+          "hash": "14701344671644104227"
+        },
+        {
+          "file": "vrx-mf/apps/shell/src/styles.scss",
+          "hash": "12716081875576883344"
+        },
+        {
+          "file": "vrx-mf/apps/shell/src/test-setup.ts",
+          "hash": "1917999429567095215"
+        },
+        {
+          "file": "vrx-mf/apps/shell/tsconfig.app.json",
+          "hash": "13743692086045088681"
+        },
+        {
+          "file": "vrx-mf/apps/shell/tsconfig.json",
+          "hash": "4663124578817442910"
+        },
+        {
+          "file": "vrx-mf/apps/shell/tsconfig.spec.json",
+          "hash": "5331518322626158299"
+        },
+        {
+          "file": "vrx-mf/apps/shell/webpack.config.ts",
+          "hash": "383329064200880040"
+        },
+        {
+          "file": "vrx-mf/apps/shell/webpack.prod.config.ts",
+          "hash": "292733372942319833"
+        }
+      ],
+      "findings-e2e": [
+        {
+          "file": "vrx-mf/apps/findings-e2e/eslint.config.mjs",
+          "hash": "1172734138943286526"
+        },
+        {
+          "file": "vrx-mf/apps/findings-e2e/playwright.config.ts",
+          "hash": "15242251461343197086"
+        },
+        {
+          "file": "vrx-mf/apps/findings-e2e/project.json",
+          "hash": "11526084143801072"
+        },
+        {
+          "file": "vrx-mf/apps/findings-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625"
+        },
+        {
+          "file": "vrx-mf/apps/findings-e2e/tsconfig.json",
+          "hash": "15726545290547512047"
+        }
+      ],
+      "settings": [
+        {
+          "file": "vrx-mf/apps/settings/eslint.config.mjs",
+          "hash": "15543610320901399025"
+        },
+        {
+          "file": "vrx-mf/apps/settings/jest.config.ts",
+          "hash": "14493740768941460409"
+        },
+        {
+          "file": "vrx-mf/apps/settings/module-federation.config.ts",
+          "hash": "12653241801653786511"
+        },
+        {
+          "file": "vrx-mf/apps/settings/project.json",
+          "hash": "1846716486477961867"
+        },
+        {
+          "file": "vrx-mf/apps/settings/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/app/app.config.ts",
+          "hash": "4515289115773032281"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/app/app.routes.ts",
+          "hash": "12432514961207439410"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/app/components/general-settings/general-settings.ts",
+          "hash": "6243564091800658282"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/app/components/notifications-settings/notifications-settings.ts",
+          "hash": "5768329680847500641"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/app/components/security-settings/security-settings.ts",
+          "hash": "15825319903584626914"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/app/components/settings-main/settings-main.ts",
+          "hash": "10475115629648793105"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/app/remote-entry/entry.routes.ts",
+          "hash": "4435004872015741193"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/app/remote-entry/entry.ts",
+          "hash": "3787090753640835644"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/bootstrap.ts",
+          "hash": "13646108659156824644"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/index.html",
+          "hash": "5763536346148953975"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/main.ts",
+          "hash": "14701344671644104227"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "vrx-mf/apps/settings/src/test-setup.ts",
+          "hash": "1917999429567095215"
+        },
+        {
+          "file": "vrx-mf/apps/settings/tsconfig.app.json",
+          "hash": "4181211902972581879"
+        },
+        {
+          "file": "vrx-mf/apps/settings/tsconfig.json",
+          "hash": "4663124578817442910"
+        },
+        {
+          "file": "vrx-mf/apps/settings/tsconfig.spec.json",
+          "hash": "5331518322626158299"
+        },
+        {
+          "file": "vrx-mf/apps/settings/webpack.config.ts",
+          "hash": "383329064200880040"
+        },
+        {
+          "file": "vrx-mf/apps/settings/webpack.prod.config.ts",
+          "hash": "292733372942319833"
+        }
+      ],
+      "ui-kit": [
+        {
+          "file": "vrx-mf/libs/ui-kit/README.md",
+          "hash": "7005510925238690816"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/eslint.config.mjs",
+          "hash": "15543610320901399025"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/jest.config.ts",
+          "hash": "10732268070350648674"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/project.json",
+          "hash": "9331428737695058561"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/src/index.ts",
+          "hash": "12773097708862985364"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/src/lib/components/button/button.ts",
+          "hash": "15918548133492501643"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/src/lib/components/card/card.ts",
+          "hash": "3398347875303929113"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/src/lib/components/dashboard-cards/risk-chart.ts",
+          "hash": "9299702975516997585"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/src/lib/components/dashboard-cards/risk-stats.ts",
+          "hash": "12896025760478843083"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/src/lib/components/dashboard-cards/summary-card.ts",
+          "hash": "11455449711267140310"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/src/lib/components/page-container/page-container.ts",
+          "hash": "7111096171361878"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/src/lib/components/table/table.ts",
+          "hash": "14166464835086242532"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/src/test-setup.ts",
+          "hash": "1917999429567095215"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/tsconfig.json",
+          "hash": "16798562522216220935"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/tsconfig.lib.json",
+          "hash": "5796668385415907511"
+        },
+        {
+          "file": "vrx-mf/libs/ui-kit/tsconfig.spec.json",
+          "hash": "5331518322626158299"
+        }
+      ],
+      "users": [
+        {
+          "file": "vrx-mf/apps/users/eslint.config.mjs",
+          "hash": "15543610320901399025"
+        },
+        {
+          "file": "vrx-mf/apps/users/jest.config.ts",
+          "hash": "14589978046040811436"
+        },
+        {
+          "file": "vrx-mf/apps/users/module-federation.config.ts",
+          "hash": "14042572992269490695"
+        },
+        {
+          "file": "vrx-mf/apps/users/project.json",
+          "hash": "6167703623719678700"
+        },
+        {
+          "file": "vrx-mf/apps/users/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "vrx-mf/apps/users/src/app/app.config.ts",
+          "hash": "4515289115773032281"
+        },
+        {
+          "file": "vrx-mf/apps/users/src/app/app.routes.ts",
+          "hash": "12432514961207439410"
+        },
+        {
+          "file": "vrx-mf/apps/users/src/app/components/users-main/users-main.ts",
+          "hash": "10612056215423203004"
+        },
+        {
+          "file": "vrx-mf/apps/users/src/app/remote-entry/entry.routes.ts",
+          "hash": "3867460417164941437"
+        },
+        {
+          "file": "vrx-mf/apps/users/src/app/remote-entry/entry.ts",
+          "hash": "17005904667098048216"
+        },
+        {
+          "file": "vrx-mf/apps/users/src/bootstrap.ts",
+          "hash": "13646108659156824644"
+        },
+        {
+          "file": "vrx-mf/apps/users/src/index.html",
+          "hash": "12143134484133166610"
+        },
+        {
+          "file": "vrx-mf/apps/users/src/main.ts",
+          "hash": "14701344671644104227"
+        },
+        {
+          "file": "vrx-mf/apps/users/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "vrx-mf/apps/users/src/test-setup.ts",
+          "hash": "1917999429567095215"
+        },
+        {
+          "file": "vrx-mf/apps/users/tsconfig.app.json",
+          "hash": "4181211902972581879"
+        },
+        {
+          "file": "vrx-mf/apps/users/tsconfig.json",
+          "hash": "4663124578817442910"
+        },
+        {
+          "file": "vrx-mf/apps/users/tsconfig.spec.json",
+          "hash": "5331518322626158299"
+        },
+        {
+          "file": "vrx-mf/apps/users/webpack.config.ts",
+          "hash": "383329064200880040"
+        },
+        {
+          "file": "vrx-mf/apps/users/webpack.prod.config.ts",
+          "hash": "292733372942319833"
+        }
+      ],
+      "users-e2e": [
+        {
+          "file": "vrx-mf/apps/users-e2e/eslint.config.mjs",
+          "hash": "1172734138943286526"
+        },
+        {
+          "file": "vrx-mf/apps/users-e2e/playwright.config.ts",
+          "hash": "9707768143058224112"
+        },
+        {
+          "file": "vrx-mf/apps/users-e2e/project.json",
+          "hash": "924999408215516193"
+        },
+        {
+          "file": "vrx-mf/apps/users-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625"
+        },
+        {
+          "file": "vrx-mf/apps/users-e2e/tsconfig.json",
+          "hash": "15726545290547512047"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".DS_Store",
+        "hash": "14106505281838262383"
+      },
+      {
+        "file": "vrx-mf/.editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "vrx-mf/.gitignore",
+        "hash": "17559216753634855455"
+      },
+      {
+        "file": "vrx-mf/.prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": "vrx-mf/.prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "vrx-mf/.vscode/extensions.json",
+        "hash": "13377419431693519786"
+      },
+      {
+        "file": "vrx-mf/.yarn/releases/yarn-1.22.22.cjs",
+        "hash": "11223683141063244967"
+      },
+      {
+        "file": "vrx-mf/.yarnrc",
+        "hash": "12544654281803745062"
+      },
+      {
+        "file": "vrx-mf/README.md",
+        "hash": "5360681317665207100"
+      },
+      {
+        "file": "vrx-mf/eslint.config.mjs",
+        "hash": "10770449096712831357"
+      },
+      {
+        "file": "vrx-mf/jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": "vrx-mf/jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "vrx-mf/nx.json",
+        "hash": "926784615463035810"
+      },
+      {
+        "file": "vrx-mf/package.json",
+        "hash": "10438256045568064685"
+      },
+      {
+        "file": "vrx-mf/tsconfig.base.json",
+        "hash": "15007187431103871343"
+      },
+      {
+        "file": "vrx-mf/yarn.lock",
+        "hash": "5309129876245074822"
+      }
+    ]
+  },
+  "externalNodesHash": "3244421341483603138"
+}

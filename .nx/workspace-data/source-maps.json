@@ -1,0 +1,2008 @@
+{
+  "vrx-mf/apps/assets": {
+    "root": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.inlineStyleLanguage": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.customWebpackConfig": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.customWebpackConfig": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.buildOptimizer": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.continuous": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.dependsOn": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.publicHost": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.continuous": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.defaultConfiguration": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.port": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.watch": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development.buildTarget": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production.buildTarget": [
+      "vrx-mf/apps/assets/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "vrx-mf/apps/assets-e2e": {
+    "root": [
+      "vrx-mf/apps/assets-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/apps/assets-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/apps/assets-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/apps/assets-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/apps/assets-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "vrx-mf/apps/assets-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "vrx-mf/apps/assets-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.assets": [
+      "vrx-mf/apps/assets-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/apps/assets-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "vrx-mf/apps/dashboard": {
+    "root": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.inlineStyleLanguage": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.customWebpackConfig": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.customWebpackConfig": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.buildOptimizer": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.continuous": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.dependsOn": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.publicHost": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.continuous": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.defaultConfiguration": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.port": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.watch": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development.buildTarget": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production.buildTarget": [
+      "vrx-mf/apps/dashboard/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "vrx-mf/apps/dashboard-e2e": {
+    "root": [
+      "vrx-mf/apps/dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/apps/dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/apps/dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/apps/dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/apps/dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "vrx-mf/apps/dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "vrx-mf/apps/dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.dashboard": [
+      "vrx-mf/apps/dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/apps/dashboard-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "vrx-mf/apps/findings": {
+    "root": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.inlineStyleLanguage": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.customWebpackConfig": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.customWebpackConfig": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.buildOptimizer": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.continuous": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.dependsOn": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.publicHost": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.continuous": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.defaultConfiguration": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.port": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.watch": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development.buildTarget": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production.buildTarget": [
+      "vrx-mf/apps/findings/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "vrx-mf/apps/findings-e2e": {
+    "root": [
+      "vrx-mf/apps/findings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/apps/findings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/apps/findings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/apps/findings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/apps/findings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "vrx-mf/apps/findings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "vrx-mf/apps/findings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.findings": [
+      "vrx-mf/apps/findings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/apps/findings-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "vrx-mf/apps/settings": {
+    "root": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.inlineStyleLanguage": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.customWebpackConfig": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.customWebpackConfig": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.buildOptimizer": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.continuous": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.dependsOn": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.publicHost": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.continuous": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.defaultConfiguration": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.port": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.watch": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development.buildTarget": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production.buildTarget": [
+      "vrx-mf/apps/settings/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "vrx-mf/apps/settings-e2e": {
+    "root": [
+      "vrx-mf/apps/settings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/apps/settings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/apps/settings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/apps/settings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/apps/settings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "vrx-mf/apps/settings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "vrx-mf/apps/settings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.settings": [
+      "vrx-mf/apps/settings-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/apps/settings-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "vrx-mf/apps/shell": {
+    "root": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.inlineStyleLanguage": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.customWebpackConfig": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.customWebpackConfig": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.buildOptimizer": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.continuous": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.publicHost": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.continuous": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.port": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.spa": [
+      "vrx-mf/apps/shell/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "vrx-mf/apps/shell-e2e": {
+    "root": [
+      "vrx-mf/apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "vrx-mf/apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "vrx-mf/apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.shell": [
+      "vrx-mf/apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/apps/shell-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "vrx-mf/apps/users": {
+    "root": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.inlineStyleLanguage": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.customWebpackConfig": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.customWebpackConfig": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.buildOptimizer": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.continuous": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.dependsOn": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.publicHost": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.continuous": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.defaultConfiguration": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.port": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.watch": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development.buildTarget": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production.buildTarget": [
+      "vrx-mf/apps/users/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "vrx-mf/apps/users-e2e": {
+    "root": [
+      "vrx-mf/apps/users-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/apps/users-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/apps/users-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/apps/users-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/apps/users-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "vrx-mf/apps/users-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "vrx-mf/apps/users-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.users": [
+      "vrx-mf/apps/users-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/apps/users-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "vrx-mf/libs/ui-kit": {
+    "root": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.tsConfig": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "vrx-mf/libs/ui-kit/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}
