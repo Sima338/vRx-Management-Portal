@@ -15,6 +15,45 @@ const config: ModuleFederationConfig = {
    *
    */
   remotes: ['dashboard', 'assets', 'findings', 'users', 'settings'],
+  shared: (libraryName: string, defaultConfig: { singleton?: boolean; strictVersion?: boolean; requiredVersion?: string | false }) => {
+    // Core Angular packages - should be singleton and strict version
+    if (libraryName === '@angular/core' || 
+        libraryName === '@angular/common' || 
+        libraryName === '@angular/router' || 
+        libraryName === '@angular/platform-browser' ||
+        libraryName === '@angular/platform-browser-dynamic' ||
+        libraryName === '@angular/forms' ||
+        libraryName === 'rxjs') {
+      return {
+        ...defaultConfig,
+        singleton: true,
+        strictVersion: true,
+        requiredVersion: 'auto'
+      };
+    }
+    
+    // Our ui-kit library - should be shared but more flexible versioning
+    if (libraryName === '@vrx-mf/ui-kit') {
+      return {
+        ...defaultConfig,
+        singleton: true,
+        strictVersion: false,
+        requiredVersion: false
+      };
+    }
+    
+    // Zone.js - Angular dependency
+    if (libraryName === 'zone.js') {
+      return {
+        ...defaultConfig,
+        singleton: true,
+        strictVersion: true,
+        requiredVersion: 'auto'
+      };
+    }
+    
+    return defaultConfig;
+  }
 };
 
 /**
