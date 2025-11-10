@@ -82,5 +82,24 @@
     "@nx/angular:component": {
       "style": "css"
     }
-  }
+  },
+  "defaultProject": "shell",
+  "dependencyConstraints": [
+    {
+      "sourceTag": "type:lib",
+      "onlyDependOnLibsWithTags": ["type:lib"]
+    },
+    {
+      "sourceTag": "type:app",
+      "onlyDependOnLibsWithTags": ["type:lib", "type:shared"]
+    },
+    {
+      "sourceTag": "scope:ui-kit",
+      "bannedDependencies": ["scope:shell", "scope:dashboard", "scope:assets", "scope:findings", "scope:users", "scope:settings"]
+    },
+    {
+      "sourceTag": "scope:shared",
+      "onlyDependOnLibsWithTags": ["scope:shared", "type:util"]
+    }
+  ]
 }

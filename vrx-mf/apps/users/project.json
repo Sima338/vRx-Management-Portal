@@ -4,7 +4,7 @@
   "projectType": "application",
   "prefix": "vrx",
   "sourceRoot": "apps/users/src",
-  "tags": [],
+  "tags": ["type:app", "scope:users"],
   "targets": {
     "build": {
       "executor": "@nx/angular:webpack-browser",
