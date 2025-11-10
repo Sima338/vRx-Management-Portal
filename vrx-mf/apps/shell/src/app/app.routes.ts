@@ -3,6 +3,10 @@ import { Route } from '@angular/router';
 
 export const appRoutes: Route[] = [
   {
+    path: 'users',
+    loadChildren: () => import('users/Routes').then((m) => m!.remoteRoutes),
+  },
+  {
     path: 'findings',
     loadChildren: () => import('findings/Routes').then((m) => m!.remoteRoutes),
   },

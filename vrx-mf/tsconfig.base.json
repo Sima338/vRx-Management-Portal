@@ -19,7 +19,8 @@
         "apps/dashboard/src/app/remote-entry/entry.routes.ts"
       ],
       "assets/Routes": ["apps/assets/src/app/remote-entry/entry.routes.ts"],
-      "findings/Routes": ["apps/findings/src/app/remote-entry/entry.routes.ts"]
+      "findings/Routes": ["apps/findings/src/app/remote-entry/entry.routes.ts"],
+      "users/Routes": ["apps/users/src/app/remote-entry/entry.routes.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
