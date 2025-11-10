@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { NxWelcome } from './nx-welcome';
+import { FindingsMainComponent } from '../components/findings-main/findings-main';
 
 @Component({
-  imports: [NxWelcome],
+  imports: [FindingsMainComponent],
   selector: 'vrx-findings-entry',
-  template: `<vrx-nx-welcome></vrx-nx-welcome>`,
+  template: `<vrx-findings-main></vrx-findings-main>`,
 })
 export class RemoteEntry {}

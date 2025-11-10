@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { NxWelcome } from './nx-welcome';
+import { SettingsMainComponent } from '../components/settings-main/settings-main';
 
 @Component({
-  imports: [NxWelcome],
+  imports: [SettingsMainComponent],
   selector: 'vrx-settings-entry',
-  template: `<vrx-nx-welcome></vrx-nx-welcome>`,
+  template: `<vrx-settings-main></vrx-settings-main>`,
 })
 export class RemoteEntry {}

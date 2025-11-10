@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { NxWelcome } from './nx-welcome';
+import { AssetsMainComponent } from '../components/assets-main/assets-main';
 
 @Component({
-  imports: [NxWelcome],
+  imports: [AssetsMainComponent],
   selector: 'vrx-assets-entry',
-  template: `<vrx-nx-welcome></vrx-nx-welcome>`,
+  template: `<vrx-assets-main></vrx-assets-main>`,
 })
 export class RemoteEntry {}

@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { UserList } from '../components/users-list/user-list';
+import { UsersMainComponent } from '../components/users-main/users-main';
 
 @Component({
-  imports: [UserList],
+  imports: [UsersMainComponent],
   selector: 'vrx-users-entry',
-  template: `<vrx-user-list></vrx-user-list>`,
+  template: `<vrx-users-main></vrx-users-main>`,
 })
 export class RemoteEntry {}
