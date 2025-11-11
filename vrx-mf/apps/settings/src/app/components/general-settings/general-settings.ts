@@ -4,38 +4,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'vrx-general-settings',
   imports: [CommonModule],
-  template: `
-    <div class="settings-section">
-      <h3>General Settings</h3>
-      <div class="settings-form">
-        <div class="form-group">
-          <label for="appName">Application Name</label>
-          <input type="text" id="appName" value="vRx Management Portal" class="form-input">
-        </div>
-        <div class="form-group">
-          <label for="language">Language</label>
-          <select id="language" class="form-select">
-            <option>English</option>
-            <option>Spanish</option>
-            <option>French</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <span class="form-label">Theme</span>
-          <div class="radio-group">
-            <label class="radio-label">
-              <input type="radio" name="theme" value="light" checked>
-              Light
-            </label>
-            <label class="radio-label">
-              <input type="radio" name="theme" value="dark">
-              Dark
-            </label>
-          </div>
-        </div>
-      </div>
-    </div>
-  `,
+  templateUrl: './general-settings.html',
   styles: [`
     .settings-section {
       padding: 24px;

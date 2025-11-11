@@ -1,0 +1,33 @@
+<div class="settings-section">
+  <h3>Security Settings</h3>
+  <div class="settings-form">
+    <div class="form-group">
+      <label for="sessionTimeout">Session Timeout (minutes)</label>
+      <input type="number" id="sessionTimeout" value="30" class="form-input">
+    </div>
+    <div class="form-group">
+      <label for="passwordPolicy">Password Policy</label>
+      <select id="passwordPolicy" class="form-select">
+        <option>Strong (12+ chars, special chars)</option>
+        <option>Medium (8+ chars, mixed case)</option>
+        <option>Basic (6+ chars)</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <div class="checkbox-group">
+        <label class="checkbox-label">
+          <input type="checkbox" checked>
+          Enable two-factor authentication
+        </label>
+        <label class="checkbox-label">
+          <input type="checkbox">
+          Require password change every 90 days
+        </label>
+        <label class="checkbox-label">
+          <input type="checkbox" checked>
+          Log security events
+        </label>
+      </div>
+    </div>
+  </div>
+</div>

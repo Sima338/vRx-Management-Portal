@@ -1,0 +1,143 @@
+<vrx-page-container 
+  [title]="asset()?.name || 'Asset Details'" 
+  [subtitle]="'Detailed view and vulnerability analysis'">
+  
+  <div class="asset-details-content">
+    
+    <!-- Error Display -->
+    <div *ngIf="error()" class="error-message">
+      <span>{{ error() }}</span>
+      <button class="retry-btn" (click)="loadAssetDetails()">Retry</button>
+    </div>
+
+    <!-- Loading State -->
+    <div *ngIf="loading()" class="loading-state">
+      <div class="loading-spinner"></div>
+      <span>Loading asset details...</span>
+    </div>
+
+    <!-- Asset Details -->
+    <div *ngIf="!loading() && asset()" class="asset-info">
+      
+      <!-- Back Navigation -->
+      <div class="navigation">
+        <vrx-button 
+          variant="secondary" 
+          icon="←"
+          (clicked)="goBack()">
+          Back to Assets
+        </vrx-button>
+      </div>
+
+      <!-- Asset Overview -->
+      <div class="asset-overview">
+        <div class="overview-header">
+          <h2>{{ asset()!.name }}</h2>
+          <div class="asset-badges">
+            <span class="badge" [ngClass]="'badge-' + asset()!.type">{{ asset()!.type }}</span>
+            <span class="badge" [ngClass]="'badge-' + asset()!.status">{{ asset()!.status }}</span>
+            <span class="badge" [ngClass]="'badge-' + asset()!.environment">{{ asset()!.environment }}</span>
+          </div>
+        </div>
+        
+        <div class="overview-grid">
+          <div class="info-card">
+            <div class="info-label">Owner</div>
+            <div class="info-value">{{ asset()!.owner }}</div>
+          </div>
+          <div class="info-card">
+            <div class="info-label">Risk Score</div>
+            <div class="info-value" [ngClass]="getRiskScoreClass(asset()!.riskScore)">
+              {{ asset()!.riskScore || 'N/A' }}
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-label">Location</div>
+            <div class="info-value">{{ asset()!.location || 'N/A' }}</div>
+          </div>
+          <div class="info-card">
+            <div class="info-label">IP Address</div>
+            <div class="info-value">{{ asset()!.ipAddress || 'N/A' }}</div>
+          </div>
+          <div class="info-card">
+            <div class="info-label">Operating System</div>
+            <div class="info-value">{{ asset()!.operatingSystem || 'N/A' }}</div>
+          </div>
+          <div class="info-card">
+            <div class="info-label">Last Scanned</div>
+            <div class="info-value">{{ formatDate(asset()!.lastScanned) }}</div>
+          </div>
+        </div>
+
+        <!-- Tags -->
+        <div *ngIf="asset()!.tags && asset()!.tags!.length > 0" class="tags-section">
+          <div class="tags-label">Tags:</div>
+          <div class="tags">
+            <span *ngFor="let tag of asset()!.tags" class="tag">{{ tag }}</span>
+          </div>
+        </div>
+
+        <!-- Description -->
+        <div *ngIf="asset()!.metadata?.description" class="description-section">
+          <div class="description-label">Description:</div>
+          <p class="description">{{ asset()!.metadata!.description }}</p>
+        </div>
+      </div>
+
+      <!-- Vulnerability Statistics -->
+      <div class="vulnerability-stats">
+        <div class="stats-header">
+          <h3>Vulnerability Overview</h3>
+          <vrx-button 
+            variant="primary" 
+            icon="🔍"
+            (clicked)="scanAsset()">
+            Rescan Asset
+          </vrx-button>
+        </div>
+        
+        <div class="vuln-stats-grid">
+          <div class="vuln-stat critical">
+            <div class="vuln-number">{{ getVulnerabilityCountBySeverity('critical') }}</div>
+            <div class="vuln-label">Critical</div>
+          </div>
+          <div class="vuln-stat high">
+            <div class="vuln-number">{{ getVulnerabilityCountBySeverity('high') }}</div>
+            <div class="vuln-label">High</div>
+          </div>
+          <div class="vuln-stat medium">
+            <div class="vuln-number">{{ getVulnerabilityCountBySeverity('medium') }}</div>
+            <div class="vuln-label">Medium</div>
+          </div>
+          <div class="vuln-stat low">
+            <div class="vuln-number">{{ getVulnerabilityCountBySeverity('low') }}</div>
+            <div class="vuln-label">Low</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vulnerabilities Table -->
+      <div class="vulnerabilities-section">
+        <h3>Vulnerabilities</h3>
+        
+        <div *ngIf="asset()!.vulnerabilities.length === 0" class="no-vulnerabilities">
+          <div class="no-vuln-icon">✅</div>
+          <h4>No Vulnerabilities Found</h4>
+          <p>This asset is currently clean with no known security vulnerabilities.</p>
+        </div>
+
+        <vrx-table 
+          *ngIf="asset()!.vulnerabilities.length > 0"
+          [columns]="vulnerabilityColumns"
+          [data]="asset()!.vulnerabilities"
+          [actions]="vulnerabilityActions"
+          [showSearch]="true"
+          [searchPlaceholder]="'Search vulnerabilities...'"
+          [searchColumns]="['description', 'cve']"
+          (actionClicked)="handleVulnerabilityAction($event)">
+        </vrx-table>
+      </div>
+
+    </div>
+  </div>
+</vrx-page-container>

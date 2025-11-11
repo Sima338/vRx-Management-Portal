@@ -4,53 +4,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'vrx-notifications-settings',
   imports: [CommonModule],
-  template: `
-    <div class="settings-section">
-      <h3>Notification Settings</h3>
-      <div class="settings-form">
-        <div class="notification-group">
-          <h4>Email Notifications</h4>
-          <div class="checkbox-group">
-            <label class="checkbox-label">
-              <input type="checkbox" checked>
-              Security alerts
-            </label>
-            <label class="checkbox-label">
-              <input type="checkbox" checked>
-              System updates
-            </label>
-            <label class="checkbox-label">
-              <input type="checkbox">
-              Weekly reports
-            </label>
-          </div>
-        </div>
-        
-        <div class="notification-group">
-          <h4>Push Notifications</h4>
-          <div class="checkbox-group">
-            <label class="checkbox-label">
-              <input type="checkbox" checked>
-              Critical vulnerabilities
-            </label>
-            <label class="checkbox-label">
-              <input type="checkbox">
-              Asset status changes
-            </label>
-            <label class="checkbox-label">
-              <input type="checkbox">
-              Daily summaries
-            </label>
-          </div>
-        </div>
-        
-        <div class="form-group">
-          <label for="notificationEmail">Notification Email</label>
-          <input type="email" id="notificationEmail" value="admin@vrx.com" class="form-input">
-        </div>
-      </div>
-    </div>
-  `,
+  templateUrl: './notifications-settings.html',
   styles: [`
     .settings-section {
       padding: 24px;

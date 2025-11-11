@@ -1,0 +1,32 @@
+<vrx-page-container title="Settings" subtitle="Configure your application preferences">
+  <div class="settings-layout">
+    <!-- Settings Navigation -->
+    <nav class="settings-nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a routerLink="general" routerLinkActive="active" class="nav-link">
+            <span class="nav-icon">⚙️</span>
+            General
+          </a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="security" routerLinkActive="active" class="nav-link">
+            <span class="nav-icon">🔒</span>
+            Security
+          </a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="notifications" routerLinkActive="active" class="nav-link">
+            <span class="nav-icon">🔔</span>
+            Notifications
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Settings Content -->
+    <div class="settings-content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</vrx-page-container>

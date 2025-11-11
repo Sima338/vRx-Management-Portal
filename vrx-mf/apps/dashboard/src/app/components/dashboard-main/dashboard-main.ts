@@ -17,73 +17,7 @@ import {
     RiskChartComponent, 
     RiskStatsComponent
   ],
-  template: `
-    <vrx-page-container title="Dashboard" subtitle="Overview of your security management">
-      <div class="dashboard-content">
-        
-        <!-- Summary Cards -->
-        <div class="summary-cards">
-          <vrx-summary-card
-            title="Apps"
-            value="2717"
-            icon="📱"
-            iconClass="apps-icon">
-          </vrx-summary-card>
-          
-          <vrx-summary-card
-            title="Assets"
-            value="24"
-            icon="🏢"
-            iconClass="assets-icon">
-          </vrx-summary-card>
-          
-          <vrx-summary-card
-            title="Operating Systems"
-            value="11"
-            icon="⚙️"
-            iconClass="systems-icon">
-          </vrx-summary-card>
-        </div>
-
-        <!-- Risk Overview -->
-        <vrx-risk-stats
-          title="Asset Risk Level"
-          [stats]="assetRiskStats">
-        </vrx-risk-stats>
-
-        <!-- Risk Charts -->
-        <div class="charts-section">
-          <vrx-risk-chart
-            value="55"
-            label="Apps"
-            title="⚡ High Risk"
-            chartClass="high-risk-chart">
-          </vrx-risk-chart>
-          
-          <vrx-risk-chart
-            value="16"
-            label="Apps"
-            title="⚠️ Med Risk"
-            chartClass="med-risk-chart">
-          </vrx-risk-chart>
-          
-          <vrx-risk-chart
-            value="2646"
-            label="Apps"
-            title="✓ Low Risk"
-            chartClass="low-risk-chart">
-          </vrx-risk-chart>
-        </div>
-
-        <!-- Asset Status -->
-        <vrx-risk-stats
-          title="Asset Status"
-          [stats]="assetStatusStats">
-        </vrx-risk-stats>
-
-      </div>
-    </vrx-page-container>
-  `,
+  templateUrl: './dashboard-main.html',
   styles: [`
     .dashboard-content {
       padding: 24px;
