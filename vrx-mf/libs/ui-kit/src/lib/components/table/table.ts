@@ -169,19 +169,57 @@ export interface TableAction {
       color: #0c5460;
     }
 
+    /* Severity Badges */
+    .badge-critical {
+      background: #fee2e2;
+      color: #dc2626;
+    }
+
     .badge-high {
-      background: #ffe2e5;
-      color: #c53030;
+      background: #fef3c7;
+      color: #d97706;
     }
 
     .badge-medium {
-      background: #fff3cd;
-      color: #b45309;
+      background: #fef3c7;
+      color: #d97706;
     }
 
     .badge-low {
-      background: #d1ecf1;
-      color: #0c5460;
+      background: #dcfce7;
+      color: #16a34a;
+    }
+
+    /* Status Badges */
+    .badge-open {
+      background: #fef3c7;
+      color: #d97706;
+    }
+
+    .badge-investigating {
+      background: #dbeafe;
+      color: #2563eb;
+    }
+
+    .badge-resolved {
+      background: #dcfce7;
+      color: #16a34a;
+    }
+
+    .badge-false_positive {
+      background: #f3f4f6;
+      color: #6b7280;
+    }
+
+    /* Active/Inactive Status Badges */
+    .badge-active {
+      background: #dcfce7;
+      color: #16a34a;
+    }
+
+    .badge-inactive {
+      background: #fee2e2;
+      color: #dc2626;
     }
 
     /* Date Cell */

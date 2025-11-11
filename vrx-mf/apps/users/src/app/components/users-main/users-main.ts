@@ -85,15 +85,23 @@ interface TableColumn {
         </div>
 
         <!-- Users Table -->
-        <vrx-table 
-          [columns]="tableColumns"
-          [data]="users()"
-          [actions]="tableActions"
-          [showSearch]="true"
-          searchPlaceholder="Search"
-          [searchColumns]="['name', 'email', 'role']"
-          (actionClicked)="handleTableAction($event)">
-        </vrx-table>
+        <div class="table-section">
+          <div *ngIf="loading()" class="loading-state">
+            <div class="loading-spinner"></div>
+            <span>Loading users...</span>
+          </div>
+          
+          <vrx-table 
+            *ngIf="!loading()"
+            [columns]="tableColumns"
+            [data]="users()"
+            [actions]="tableActions"
+            [showSearch]="true"
+            searchPlaceholder="Search"
+            [searchColumns]="['name', 'email', 'role']"
+            (actionClicked)="handleTableAction($event)">
+          </vrx-table>
+        </div>
 
         <!-- Users Stats -->
         <div class="users-stats">
@@ -426,6 +434,38 @@ interface TableColumn {
       color: #666;
       text-transform: uppercase;
       font-weight: 500;
+    }
+
+    /* Table Section */
+    .table-section {
+      background: white;
+      border-radius: 12px;
+      border: 1px solid #e5e5e7;
+      min-height: 200px;
+    }
+
+    .loading-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+      color: #666;
+      gap: 16px;
+    }
+
+    .loading-spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid #f3f3f3;
+      border-top: 3px solid #007aff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
     }
 
     /* Responsive Design */
