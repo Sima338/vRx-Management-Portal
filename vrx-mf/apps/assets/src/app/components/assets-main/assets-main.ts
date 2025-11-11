@@ -2,23 +2,10 @@ import { Component, OnInit, inject, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
-import { PageContainerComponent, TableComponent, ButtonComponent } from '@vrx-mf/ui-kit';
-import { AssetService, Asset } from '../../services/asset.service';
+import { PageContainerComponent, TableComponent, ButtonComponent, TableColumn, TableActionEvent } from '@vrx-mf/ui-kit';
+import { AssetService } from '../../services/asset.service';
+import { Asset } from '../../models/asset.models';
 import { finalize } from 'rxjs/operators';
-
-interface TableColumn {
-  key: string;
-  label: string;
-  type: 'text' | 'avatar' | 'badge' | 'date' | 'actions';
-  sortable?: boolean;
-  width?: string;
-}
-
-interface TableActionEvent {
-  action: string;
-  item: unknown;
-  index: number;
-}
 
 @Component({
   selector: 'vrx-assets-main',

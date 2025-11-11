@@ -1,11 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-export interface RiskStat {
-  type: 'high' | 'med' | 'low';
-  label: string;
-  count: number;
-}
+import { RiskStat } from '../../models/card.models';
 
 @Component({
   selector: 'vrx-risk-stats',

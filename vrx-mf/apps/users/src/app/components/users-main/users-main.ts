@@ -1,16 +1,9 @@
 import { Component, OnInit, signal, computed, effect, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { PageContainerComponent, TableComponent, ButtonComponent } from '@vrx-mf/ui-kit';
-import { UserService, User, CreateUserRequest } from '../../services/user.service';
-
-interface TableColumn {
-  key: string;
-  label: string;
-  type: 'text' | 'avatar' | 'badge' | 'date' | 'actions';
-  sortable?: boolean;
-  width?: string;
-}
+import { PageContainerComponent, TableComponent, ButtonComponent, TableColumn, TableActionEvent } from '@vrx-mf/ui-kit';
+import { UserService } from '../../services/user.service';
+import { User, CreateUserRequest } from '../../models/user.models';
 
 @Component({
   selector: 'vrx-users-main',
@@ -670,7 +663,7 @@ export class UsersMainComponent implements OnInit {
     return this.stats().admins;
   }
 
-  handleTableAction(event: { action: string; item: unknown; index: number }) {
+  handleTableAction(event: TableActionEvent) {
     const { action, item } = event;
     const user = item as User; // Type assertion since we know this is a User
     

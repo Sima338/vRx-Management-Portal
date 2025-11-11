@@ -1,23 +1,10 @@
 import { Component, OnInit, inject, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { PageContainerComponent, TableComponent, ButtonComponent } from '@vrx-mf/ui-kit';
-import { FindingsService, Finding } from '../../services/findings.service';
+import { PageContainerComponent, TableComponent, ButtonComponent, TableColumn, TableActionEvent } from '@vrx-mf/ui-kit';
+import { FindingsService } from '../../services/findings.service';
+import { Finding } from '../../models/findings.models';
 import { finalize } from 'rxjs/operators';
-
-interface TableColumn {
-  key: string;
-  label: string;
-  type: 'text' | 'avatar' | 'badge' | 'date' | 'actions';
-  sortable?: boolean;
-  width?: string;
-}
-
-interface TableActionEvent {
-  action: string;
-  item: unknown;
-  index: number;
-}
 
 @Component({
   selector: 'vrx-findings-main',

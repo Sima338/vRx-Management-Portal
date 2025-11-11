@@ -1,21 +1,7 @@
 import { Component, Input, Output, EventEmitter, OnInit, OnChanges } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
-export interface TableColumn {
-  key: string;
-  label: string;
-  sortable?: boolean;
-  width?: string;
-  type?: 'text' | 'badge' | 'avatar' | 'date' | 'actions';
-}
-
-export interface TableAction {
-  label: string;
-  icon?: string;
-  action: string;
-  class?: string;
-}
+import { TableColumn, TableAction, TableActionEvent, TableRowClickEvent } from '../../models/table.models';
 
 @Component({
   selector: 'vrx-table',
@@ -420,8 +406,8 @@ export class TableComponent implements OnInit, OnChanges {
   @Input() showSearch = false;
   @Input() searchPlaceholder = 'Search...';
   @Input() searchColumns: string[] = [];
-  @Output() actionClicked = new EventEmitter<{action: string, item: unknown, index: number}>();
-  @Output() rowClicked = new EventEmitter<{item: unknown, index: number}>();
+  @Output() actionClicked = new EventEmitter<TableActionEvent>();
+  @Output() rowClicked = new EventEmitter<TableRowClickEvent>();
 
   searchTerm = '';
   filteredData: unknown[] = [];
