@@ -12,7 +12,7 @@ export interface TableColumn {
 
 export interface TableAction {
   label: string;
-  icon: string;
+  icon?: string;
   action: string;
   class?: string;
 }
@@ -42,7 +42,10 @@ export interface TableAction {
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let item of filteredData; let i = index" class="table-row" [attr.data-index]="i">
+          <tr *ngFor="let item of filteredData; let i = index" 
+              class="table-row" 
+              [attr.data-index]="i"
+              (click)="onRowClick(item, i)">
             <td *ngFor="let column of columns" [ngClass]="'cell-' + column.type">
               
               <!-- Text Cell -->
@@ -75,7 +78,8 @@ export interface TableAction {
                         [ngClass]="action.class"
                         [title]="action.label"
                         (click)="onAction(action.action, item, i)">
-                  {{ action.icon }}
+                  <span *ngIf="action.icon" class="action-icon">{{ action.icon }}</span>
+                  <span class="action-label">{{ action.label }}</span>
                 </button>
               </div>
               
@@ -123,6 +127,7 @@ export interface TableAction {
 
     .table-row:hover {
       background: #f8f9fa;
+      cursor: pointer;
     }
 
     /* Avatar Cell */
@@ -222,6 +227,53 @@ export interface TableAction {
       color: #dc2626;
     }
 
+    .badge-maintenance {
+      background: #fef3c7;
+      color: #d97706;
+    }
+
+    /* Asset Type Badges */
+    .badge-server {
+      background: #dbeafe;
+      color: #2563eb;
+    }
+
+    .badge-application {
+      background: #e0e7ff;
+      color: #6366f1;
+    }
+
+    .badge-database {
+      background: #fef3c7;
+      color: #d97706;
+    }
+
+    .badge-network {
+      background: #ecfdf5;
+      color: #10b981;
+    }
+
+    .badge-cloud {
+      background: #f3e8ff;
+      color: #8b5cf6;
+    }
+
+    /* Environment Badges */
+    .badge-production {
+      background: #fee2e2;
+      color: #dc2626;
+    }
+
+    .badge-staging {
+      background: #fef3c7;
+      color: #d97706;
+    }
+
+    .badge-development {
+      background: #dcfce7;
+      color: #16a34a;
+    }
+
     /* Date Cell */
     .date-cell {
       color: #666;
@@ -235,36 +287,84 @@ export interface TableAction {
     }
 
     .action-btn {
-      padding: 6px 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 12px;
       border: none;
       border-radius: 6px;
       cursor: pointer;
       font-size: 12px;
-      transition: background 0.2s ease;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    /* Action button without icon */
+    .action-btn:not(:has(.action-icon)) {
+      justify-content: center;
+    }
+
+    .action-icon {
+      font-size: 14px;
+    }
+
+    .action-label {
+      font-size: 12px;
+      font-weight: 500;
     }
 
     .action-edit {
       background: #f0f9ff;
+      color: #1e40af;
+      border: 1px solid #dbeafe;
     }
 
     .action-edit:hover {
       background: #e0f2fe;
+      border-color: #93c5fd;
     }
 
     .action-delete {
       background: #fef2f2;
+      color: #dc2626;
+      border: 1px solid #fecaca;
     }
 
     .action-delete:hover {
       background: #fee2e2;
+      border-color: #fca5a5;
     }
 
     .action-view {
       background: #f0fdf4;
+      color: #16a34a;
+      border: 1px solid #bbf7d0;
     }
 
     .action-view:hover {
       background: #dcfce7;
+      border-color: #86efac;
+    }
+
+    .action-view-details {
+      background: #007aff;
+      color: white;
+      border: 1px solid #007aff;
+      font-weight: 600;
+      box-shadow: 0 1px 3px rgba(0, 122, 255, 0.2);
+    }
+
+    .action-view-details:hover {
+      background: #0056b3;
+      border-color: #0056b3;
+      box-shadow: 0 2px 6px rgba(0, 122, 255, 0.3);
+      transform: translateY(-1px);
+    }
+
+    .action-view-details:active {
+      transform: translateY(0);
+      box-shadow: 0 1px 2px rgba(0, 122, 255, 0.2);
     }
 
     /* Empty State */
@@ -321,6 +421,7 @@ export class TableComponent implements OnInit, OnChanges {
   @Input() searchPlaceholder = 'Search...';
   @Input() searchColumns: string[] = [];
   @Output() actionClicked = new EventEmitter<{action: string, item: unknown, index: number}>();
+  @Output() rowClicked = new EventEmitter<{item: unknown, index: number}>();
 
   searchTerm = '';
   filteredData: unknown[] = [];
@@ -391,5 +492,9 @@ export class TableComponent implements OnInit, OnChanges {
 
   onAction(action: string, item: unknown, index: number) {
     this.actionClicked.emit({ action, item, index });
+  }
+
+  onRowClick(item: unknown, index: number) {
+    this.rowClicked.emit({ item, index });
   }
 }

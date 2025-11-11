@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { AssetsMainComponent } from '../components/assets-main/assets-main';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
-  imports: [AssetsMainComponent],
+  imports: [RouterOutlet],
   selector: 'vrx-assets-entry',
-  template: `<vrx-assets-main></vrx-assets-main>`,
+  template: `<router-outlet></router-outlet>`,
 })
 export class RemoteEntry {}
