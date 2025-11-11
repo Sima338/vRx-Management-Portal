@@ -5,16 +5,16 @@ A micro-frontend security management platform built with Angular 20, Nx, and Mod
 ## Project Structure
 
 ```
-apps/
-├── shell/          # Host application (main entry point)
-├── dashboard/      # Dashboard micro-frontend
-├── assets/         # Asset management micro-frontend
-├── findings/       # Security findings micro-frontend
-├── users/          # User management micro-frontend
-└── settings/       # Application settings micro-frontend
-
-libs/
-└── ui-kit/         # Shared component library
+vrx-mf/
+├── apps/
+│   ├── shell/          # Host application (main entry point)
+│   ├── dashboard/      # Dashboard micro-frontend
+│   ├── assets/         # Asset management micro-frontend
+│   ├── findings/       # Security findings micro-frontend
+│   ├── users/          # User management micro-frontend
+│   └── settings/       # Application settings micro-frontend
+└── libs/
+    └── ui-kit/         # Shared component library
 ```
 
 ## Development
